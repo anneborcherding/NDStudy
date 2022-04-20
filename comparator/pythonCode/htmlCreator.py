@@ -366,13 +366,13 @@ def singleCrawlOutput(
 if __name__ == '__main__':
 	# print("Hello")
 	# randomPairOuput();
-	# CRAWL_PATH = "/comparator/src/main/resources/GoldStandards/Petclinic/crawl-petclinic-60min_old"
-	# CRAWL_PATH = "/comparator/src/main/resources/GoldStandards/Addressbook/crawl-addressbook-60min"
+	CRAWL_PATH = "../../comparator/src/main/resources/GoldStandards/Petclinic/crawl-petclinic-60min_old"
+	# CRAWL_PATH = "../../comparator/src/main/resources/GoldStandards/Addressbook/crawl-addressbook-60min"
 
-	# CRAWL_PATH = "/comparator/src/main/resources/GoldStandards/Claroline/crawl-claroline-60min"
-	# CRAWL_PATH = "/comparator/src/main/resources/GoldStandards/mantisbt/crawl-mantisbt-60min"
-	# CRAWL_PATH = "/testBatch/pagekit/crawl0"
-	CRAWL_PATH = "/comparator/src/main/resources/GoldStandards/pagekit/crawl-pagekit-60min"
+	# CRAWL_PATH = "../../comparator/src/main/resources/GoldStandards/Claroline/crawl-claroline-60min"
+	# CRAWL_PATH = "../../comparator/src/main/resources/GoldStandards/mantisbt/crawl-mantisbt-60min"
+	# CRAWL_PATH = "../../testBatch/pagekit/crawl0"
+	# CRAWL_PATH = "../../comparator/src/main/resources/GoldStandards/pagekit/crawl-pagekit-60min"
 
 	OUTPUT_PATH = os.path.join(os.path.abspath(CRAWL_PATH), "gs")
 	OUTPUT_HTML_NAME = "gs.html"
