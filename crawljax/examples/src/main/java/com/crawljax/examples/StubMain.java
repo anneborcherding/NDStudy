@@ -80,6 +80,9 @@ public class StubMain {
         	case "mantisbt":
         		URL = MantisbtRunner.URL;
         		break;
+        	default:
+        	    URL = app;
+        	    break;
             }
 			
 			try {
